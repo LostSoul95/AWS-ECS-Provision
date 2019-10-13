@@ -57,3 +57,8 @@ variable "min_instance_size" {
 variable "desired_capacity" {
   description = "Desired number of instances in the cluster"
 }
+
+variable "repository_name" {
+  description = "The name of the repository where images are kept"
+}
+
