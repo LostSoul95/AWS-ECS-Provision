@@ -1,0 +1,1 @@
+This setups a Container Cluster on AWS using terraform. We are using load balancing and auto scaling as a part of this solution.
