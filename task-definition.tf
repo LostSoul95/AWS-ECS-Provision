@@ -9,7 +9,7 @@ resource "aws_ecs_task_definition" "Hash_brown" {
   {
     "name": "node",
     "links": [
-      "mysql"
+      "mongo"
     ],
     "image": "node",
     "essential": true,
