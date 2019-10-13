@@ -13,3 +13,5 @@ using Amazon ECR plugin inbuilt in drone.io CI pipeline.
 
 6.) For testing out this setup,we have the DNS name of the load balancer spewed out as an output property in output.tf. We will hit the DNS on any browser and test out our setup.
 
+7.) Check the hashbrown-cms forked repo to lower down the time needed for dependencies.
+
