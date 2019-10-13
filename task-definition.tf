@@ -11,8 +11,8 @@ resource "aws_ecs_task_definition" "Hash_brown" {
     "links": [
       "mongo"
     ],
-    "image": "123456789012.dkr.ecr.us-east-1.amazonaws.com/hashbrown-cms,
-    "executionRoleArn": "arn:aws:iam::123456789012:role/AmazonECSContainerServiceRole"
+    "image": "67794846884.dkr.ecr.us-east-1.amazonaws.com/hashbrown-cms,
+    "executionRoleArn": "arn:aws:iam::67794846884:role/AmazonECSContainerServiceRole"
     "essential": true,
     "portMappings": [
       {
