@@ -1,9 +1,9 @@
-data "aws_ecs_task_definition" "wordpress" {
-  task_definition = "${aws_ecs_task_definition.wordpress.family}"
+data "aws_ecs_task_definition" "Hash_brown" {
+  task_definition = "${aws_ecs_task_definition.Hash_brown.family}"
 }
 
-resource "aws_ecs_task_definition" "wordpress" {
-    family                = "hello_world"
+resource "aws_ecs_task_definition" "Hash_brown" {
+    family                = "Hash_brown"
     container_definitions = <<DEFINITION
 [
   {
