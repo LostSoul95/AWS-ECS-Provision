@@ -6,7 +6,7 @@ resource "aws_iam_role" "ecs-service-role" {
 
 resource "aws_iam_role_policy_attachment" "ecs-service-role-attachment" {
     role       = "${aws_iam_role.ecs-service-role.name}"
-    policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole"
+    policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonECSContainerServiceRole"
 }
 
 data "aws_iam_policy_document" "ecs-service-policy" {
